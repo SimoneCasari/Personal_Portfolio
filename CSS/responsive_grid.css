@@ -131,6 +131,12 @@
 	.descrizione2{
 		max-width: 100%;
 	}
+	.first, .second, .third{
+		animation-delay: 0s;
+	}
+	.logo-nav div{
+		animation-delay: 0s;
+	}
 }
 @media only screen and (max-width: 1080px){
 	.first-back,
