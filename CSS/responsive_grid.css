@@ -104,11 +104,40 @@
 		justify-content: left;
 		margin-left: 10%;
 	}
+	.container-logo{
+		display: none;
+	}
+	.section.entrato .testo1{
+		transform: scale(1); 
+	}
+	.section.entrato .testo2{
+		transform: scale(1);    
+	}
+	.testo1{
+		width: 80%;  /*mobile change: 100-->80*/
+		height: 100vh;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		top: 0;
+		left: 0;
+		transition: none;
+		opacity: 1;
+	}
+	.descrizione1,
+	.descrizione2{
+		max-width: 100%;
+	}
 }
-@media only screen and (max-width: 1090px){
+@media only screen and (max-width: 1080px){
 	.first-back,
 	.second-back,
 	.third-back{
 		font-size: 85%;
+	}
+	.social, .wrapper{
+		display: none;
 	}
 }
