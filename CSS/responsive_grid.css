@@ -92,7 +92,8 @@
 		display: flex;
 	}
 	.section{
-		font-size: 3.5vh;
+		margin-top: 70%;
+		font-size: 5vh;
 		padding-left: 0;
 	}
 	.testo1{

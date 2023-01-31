@@ -191,7 +191,7 @@ nav{
     opacity: 0;
     font-size: 1.2em;
     position: relative;
-    height: 57vh;
+    height: 50vh;
     animation: languages-appear1 2s ease forwards;
     animation-delay: 3.5s;
     color: black;
@@ -206,7 +206,7 @@ nav{
     opacity: 0;
     font-size: 1.2em;
     position: relative;
-    height: 57vh;
+    height: 50vh;
     animation: languages-appear2 2s ease forwards;
     color: black;
     flex-direction: column;
@@ -219,7 +219,7 @@ nav{
     opacity: 0;
     font-size: 1.2em;
     position: relative;
-    height: 57vh;
+    height: 50vh;
     animation: languages-appear3 2s ease forwards;
     color: black;
     flex-direction: column;
@@ -279,8 +279,9 @@ nav{
     transition: all 1s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 .descrizione1{
-    margin-left: 3%;
+    margin-left: 1%;
     max-width: 40%;
+    margin-right: 2%;
 }
 .descrizione2{
     margin-left: 2%;            /*mobile change: max-width 40-->0*/
