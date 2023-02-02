@@ -190,7 +190,7 @@ nav{
 }
 .first{
     opacity: 0;
-    font-size: 1.2em;
+    font-size: 1em;
     position: relative;
     height: 50vh;
     animation: languages-appear1 2s ease forwards;
@@ -205,7 +205,7 @@ nav{
 
 .second{
     opacity: 0;
-    font-size: 1.2em;
+    font-size: 1em;
     position: relative;
     height: 50vh;
     animation: languages-appear2 2s ease forwards;
@@ -218,7 +218,7 @@ nav{
 }
 .third{
     opacity: 0;
-    font-size: 1.2em;
+    font-size: 1em;
     position: relative;
     height: 50vh;
     animation: languages-appear3 2s ease forwards;
@@ -251,7 +251,7 @@ nav{
     width: 30px;
     height: 50px;
     margin-left: 15px;
-    border: 3px solid black;
+    border: 3px solid rgb(255,145,86);
     border-radius: 50px;
     box-sizing: border-box;
     margin-left: 50%;
@@ -267,7 +267,7 @@ nav{
     width: 6px;
     height: 6px;
     margin-left: -3px;
-    background-color: black;
+    background-color: rgb(255,145,86);;
     border-radius: 100%;
     animation: scrolldown-anim 2s infinite;
     box-sizing: border-box;
@@ -285,7 +285,7 @@ nav{
 .chevrondown {
     margin-top: -6px;
     position: relative;
-    border: solid black;
+    border: solid rgb(255,145,86);;
     border-width: 0 3px 3px 0;
     display: inline-block;
     width: 10px;
